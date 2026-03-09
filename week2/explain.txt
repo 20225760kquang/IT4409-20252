@@ -1,0 +1,12 @@
+Bài 1 (ex1.html):
+Trang giới thiệu cá nhân được chia thành các khối rõ ràng bằng thẻ <header>, <div>, <footer>: header hiển thị tiêu đề "Week2", phần thân gồm thông tin cá nhân (họ tên, mã SV) và ảnh chân dung load từ đường dẫn tương đối img/nkq.jpg. 
+Bảng thời khóa biểu được tạo bằng thẻ <table> với thuộc tính border="1" để hiển thị đường viền, hàng đầu tiên dùng <th> (in đậm, căn giữa) làm tiêu đề 4 cột: Môn học, Giảng viên, Lịch học, Phòng học; các hàng dữ liệu dùng <td>. 
+Thẻ <caption> được dùng để thêm chú thích cho bảng, và <br> được dùng trong các ô <td> để xuống dòng khi một ô có nhiều thông tin. 
+Footer cuối trang hiển thị mã sinh viên và ngày tháng.
+
+Bài 2 (ex2.html):
+Trang được chia thành 3 khối chính dùng <div> kết hợp display: flex để căn chỉnh bố cục: thanh điều hướng trên cùng (top nav), phần nội dung chính ở giữa, và footer cố định phía dưới. 
+Top nav căn các phần tử sang phải (justify-content: flex-end) gồm link Gmail, Hình ảnh và avatar hình tròn tạo bằng border-radius: 50%. 
+Logo Google được tạo hoàn toàn bằng HTML thuần — mỗi chữ cái là một <span> với màu sắc riêng tương ứng màu gốc của Google (#4285F4, #EA4335, #FBBC05, #34A853). 
+Thanh tìm kiếm là một <div> có border-radius: 24px và box-shadow để tạo hình dạng pill bo tròn, bên trong chứa thẻ <input> và 5 icon lấy từ folder img/ cục bộ (plus, keyboard, voice-search, image, loupe). 
+Toàn bộ style được viết trực tiếp qua thuộc tính style inline, không dùng file CSS riêng.
